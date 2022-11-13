@@ -11,7 +11,7 @@
   cursor: pointer;
   position: relative;
   padding: 1rem 1.1rem;
-  background: #ff8084;
+  background: #8097ff;
   border-radius: 50%; //deixa redondo
   box-shadow: 0 0.3rem 0.75rem #e1e5e5;
   text-align: center;
@@ -24,7 +24,7 @@
 
 .badge {
   position: absolute;
-  background: #ff8084;
+  background: #8097ff;
   right: -0.938rem;
   top: -0.938rem;
   padding: 0.3rem 0.6rem;
@@ -40,8 +40,8 @@
   outline: none;
   color: #fff;
   border-radius: 0.3rem;
-  background: #ff8084;
-  border: 1px solid #ff8084;
+  background: #8097ff;
+  border: 1px solid #8097ff;
   margin-top: 6.25rem;
 }
 
@@ -51,12 +51,12 @@
 }
 
 .ripple:hover {
-  background: #ff8084
-    radial-gradient(circle, transparent 1%, #ff8084 1%) center/15000%;
+  background: #8097ff
+    radial-gradient(circle, transparent 1%, #8097ff 1%) center/15000%;
 }
 
 .ripple:active {
-  background-color: #fc5c61;
+  background-color: #2c3974;
   background-size: 100%;
   transition: background 0s;
 }
